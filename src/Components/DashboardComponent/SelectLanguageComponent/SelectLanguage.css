@@ -1,0 +1,8 @@
+.p-dropdown-trigger{
+    border-left: 1px solid grey !important;
+    padding: 5px;
+}
+
+.p-dropdown-panel{
+    margin-top: 5px !important;
+}

@@ -1,0 +1,61 @@
+.p-dropdown{
+    width: 97% !important;
+    padding: 5px;
+}
+
+.p-splitter-gutter,.p-splitter-gutter-handle{
+    background-color: darkcyan !important;
+    width: 3px !important;
+}
+
+.p-dropdown-label,.p-dropdown-item{
+    padding: 8px !important;
+    position: relative;
+}
+
+.onlineSuggest{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 200px;
+}
+
+.onlineSuggest>.onlineName{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.onlineSuggest>.copyIcon{
+    color:white;
+    font-size: 1.8rem !important;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.onlineUsers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5px;
+}
+
+.logoutSection{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.logoutSection>.logoutBackground{
+    background: linear-gradient(135deg, #bb8787, #9c9898);
+    display: inline-block;
+    border-radius: 50%;
+    padding: 12px 13px 8px;
+    cursor: pointer;
+}
+
+.logoutSection>.logoutBackground>.logoutIcon{
+    font-size: 1.8rem;
+}

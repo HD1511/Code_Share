@@ -72,18 +72,17 @@ To get a local copy up and running follow these simple example steps.
 
 Fork, then download or clone the repo.
 ```bash
-git clone https://github.com/HD1511/ChatApp.git
+git clone https://github.com/HD1511/Code_Share.git
 ```
 
 Create .env file in backend server folder and set the below code.
 ```bash
-MONGO_URI = (MongoDB database url local or online you can choose anything)
 FRONTEND_URI = (Insert your frontend uri example - http://localhost:5173/ for this project)
 ```
 
 For the **back-end**, install the dependencies once via the terminal.
 ```bash
-cd chatApp
+cd codeshare
 cd server
 npm install
 ```
@@ -106,7 +105,7 @@ npm install
 
 If you want to run the **front-end**, go to *frontend* folder via the terminal.
 ```bash
-cd chatApp
+cd codeshare
 npm run dev
 ```
 
@@ -131,7 +130,7 @@ Contributions are what make the open source community such an amazing place to b
 
 Harsh Dobariya- [@Harsh Dobariya](https://www.linkedin.com/in/harsh-dobariya-718908226/) - harshdob937@gmail.com
 
-Project Link: [https://github.com/HD1511/Chat_App](https://github.com/HD1511/Chat_App)
+Project Link: [https://github.com/HD1511/Chat_App](https://github.com/HD1511/Code_Share)
 
 
 

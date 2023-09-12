@@ -130,7 +130,7 @@ Contributions are what make the open source community such an amazing place to b
 
 Harsh Dobariya- [@Harsh Dobariya](https://www.linkedin.com/in/harsh-dobariya-718908226/) - harshdob937@gmail.com
 
-Project Link: [https://github.com/HD1511/Chat_App](https://github.com/HD1511/Code_Share)
+Project Link: [https://github.com/HD1511/Code_Share](https://github.com/HD1511/Code_Share)
 
 
 

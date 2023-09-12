@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcodeshare.co.uk%2Fabout%2F&psig=AOvVaw3LG4wd62owK1IWHWvoEzOk&ust=1694623949421000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPCq-arEpYEDFQAAAAAdAAAAABAI" alt="Logo" width="80" height="80">
+    <img src="https://codeshare.co.uk/img/codeshare.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Code Share</h3>

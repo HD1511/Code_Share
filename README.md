@@ -75,16 +75,16 @@ Fork, then download or clone the repo.
 git clone https://github.com/HD1511/Code_Share.git
 ```
 
+For the **back-end**, install the dependencies once via the terminal.
+```bash
+cd Code_Share
+cd server
+npm install
+```
+
 Create .env file in backend server folder and set the below code.
 ```bash
 FRONTEND_URI = (Insert your frontend uri example - http://localhost:5173/ for this project)
-```
-
-For the **back-end**, install the dependencies once via the terminal.
-```bash
-cd codeshare
-cd server
-npm install
 ```
 
 If you want to run the **back-end**, go to *backtend* folder via the terminal.
@@ -92,20 +92,19 @@ If you want to run the **back-end**, go to *backtend* folder via the terminal.
 npm run start
 ```
 
+For the **front-end**, install the dependencies once via the terminal.
+```bash
+cd Code_Share
+npm install
+```
+
 Create .env file in frontend in main chatApp directort and set the below code.
 ```bash
 VITE_BACKEND_URI = (Insert your backend uri example - http://localhost:3000/ for this project)
 ```
 
-For the **front-end**, install the dependencies once via the terminal.
-```bash
-cd codeshare
-npm install
-```
-
 If you want to run the **front-end**, go to *frontend* folder via the terminal.
 ```bash
-cd codeshare
 npm run dev
 ```
 

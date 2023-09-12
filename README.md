@@ -1,4 +1,4 @@
-# ChatApp
+# CodeShare
 
 <!-- PROJECT LOGO -->
 <br />

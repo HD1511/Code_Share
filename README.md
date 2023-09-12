@@ -48,11 +48,11 @@
 
 ### Features
 
--This project is a collaborative software platform designed to enhance the process of sharing, reviewing, and collaborating on code among developers and teams.  <br />
--This is accelerating the software development lifecycle.<br/>
--It has functionalities like user can create their own room with room id and username. Room id is randomely generated using uuid and it is always unique.<br/>
--Multiple users can join to the room and write & share their code in real time with their room members.They can also change the language according to their project.<br/>
--They can also see how many users are present in their room.<br />
+- This project is a collaborative software platform designed to enhance the process of sharing, reviewing, and collaborating on code among developers and teams.  <br />
+- This is accelerating the software development lifecycle.<br/>
+- It has functionalities like user can create their own room with room id and username. Room id is randomely generated using uuid and it is always unique.<br/>
+- Multiple users can join to the room and write & share their code in real time with their room members.They can also change the language according to their project.<br/>
+- They can also see how many users are present in their room.<br />
 
 ### Built With
 
@@ -99,7 +99,7 @@ VITE_BACKEND_URI = (Insert your backend uri example - http://localhost:3000/ for
 
 For the **front-end**, install the dependencies once via the terminal.
 ```bash
-cd chatApp
+cd codeshare
 npm install
 ```
 

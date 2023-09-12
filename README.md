@@ -48,16 +48,16 @@
 
 ### Features
 
--Connect with your friends and chat with them in real-time. <br />
--It has basic functionalities like register, login, account verification and authentication.<br/>
--Search users, send a friend request, see their profiles, update profile, server-side messages encryption. <br/>
--Server side message encryption.<br />
+-This project is a collaborative software platform designed to enhance the process of sharing, reviewing, and collaborating on code among developers and teams.  <br />
+-This is accelerating the software development lifecycle.<br/>
+-It has functionalities like user can create their own room with room id and username. Room id is randomely generated using uuid and it is always unique.<br/>
+-Multiple users can join to the room and write & share their code in real time with their room members.They can also change the language according to their project.<br/>
+-They can also see how many users are present in their room.<br />
 
 ### Built With
 
 * [NodeJS](https://nodejs.org/en/)
 * [ExpressJS](https://expressjs.com/)
-* [MongoDB](https://www.mongodb.com/1)
 * [ReactJS](https://reactjs.org/)
 * [Socket.io](https://socket.io/)
 

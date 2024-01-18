@@ -93,9 +93,12 @@ io.on('connection', (socket) => {
 
     UserList[SocketMapping[socket.id]] = UserList[SocketMapping[socket.id]].filter(item => item !== socket.id);
     UserNameList[SocketMapping[socket.id]] = UserNameList[SocketMapping[socket.id]].filter(item => item !== socket.userInfo);
+
+    io.to(SocketMapping[socket.id]).emit('User List', UserNameList[SocketMapping[socket.id]]);
+
     delete SocketMapping[socket.id];
     if(Object.keys(SocketMapping).length===0){
-      delete BindingRoomIdWithData[SocketMapping[socket.id]];
+      delete BindingRoomIdWithData[SocketMapping[socket.id]]; 
       delete BindingRoomIdWithLanguage[SocketMapping[socket.id]];
     }
 

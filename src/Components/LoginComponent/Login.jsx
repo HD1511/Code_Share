@@ -2,12 +2,9 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 
 import { Toaster, toast } from 'react-hot-toast';
-import axios from 'axios';
 
 import { Button } from '@chakra-ui/react';
 import { Spinner } from '@chakra-ui/react';
-
-import {InfoContext} from '../App/App.jsx';
 
 import { v4 as uuid } from 'uuid';
 
@@ -56,4 +53,3 @@ const Login = () => {
 }
 
 export default Login;
-<Spinner size='lg' />
